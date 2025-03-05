@@ -8,34 +8,40 @@
 
     <meta property="og:tittle">
     <meta property="og:description">
-    <meta property="og:image" content="./media/img/fotoCV.png">
+    <meta property="og:image" content="./media/img/fotoCV.jpg">
     <meta property="og:image:alt" content="Una fotografía de Adrián Gómez.">
 
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="">
 
     <link rel="icon" type="" href="">
+    <link rel="stylesheet" href="./CSS/styles.css">
 
 </head>
 <body>
     <!--Menú de navegación-->
-    <header>
-        <a href="#sobremi">Sobre mí</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
+    <header class="">
+        <div>
+            <a href="#home">Adrián Gómez</a>
+        </div>
+        <div>
+            <a href="#sobremi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
     </header>
     <!--FIN Menú de navegación-->
 
-    <main>
+    <main id="home">
         <!--Bloque de inicio-->
-        <div>
+        <div class="home">
             <article>  
                 <div>
-                    <img title="Adrián Gómez" src="./media/img/fotoCV.png" alt="fotografía de Adrián Gómez">
+                    <img id="fotocv" title="Adrián Gómez" src="./media/img/fotoCV.jpg" alt="fotografía de Adrián Gómez">
                 </div>
                 
                 <div>
-                    <h2>Adrían Gómez</h2>
+                    <h1>Adrían Gómez</h1>
                     <h3>Comunicación y postproducción audiovisual. Generalista 3D.</h3>
                     <p>Técnico en laboratorio de imagen. Grado en comunicación audiovisual 
                         y máster en postproducción digital por la Universitat Politècnica de València.</p>
@@ -49,8 +55,8 @@
         <!-- FIN Bloque de inicio-->
 
         <!-- Article sobre mí-->
-        <section>
-            <h2 id="sobremi">Algo sobre mí</h2>
+        <section id="sobremi">
+            <h2>Algo sobre mí</h2>
         
             <p>Me inicié en el mundo del audiovisual con 14 años cuando cayó en mis manos mi primera cámara de vídeo, 
                 con la que comencé a grabar y editar los primeros vídeos de skateboard con amigos. Pronto me interesé 
@@ -68,54 +74,52 @@
         <!-- FIN Article sobre mí-->
 
         <!-- Sección experiencia -->    
-        <section>
-            <div>
-                <h5>Técnico audiovisual</h5>
-                <h6>Embention S.I. | 2023 - Act.</h6>
-                <p>Diseño gráfico para redes sociales y web. 
-                    Fotografía y vídeo corporativo y de producto. 
-                    Motiongraphics. Modelado y animación 3D de producto.</p>
-            </div>
+        <section class="experiencia-fondogris">
+            <div id="experiencia">
+                <div>
+                    <h4>Técnico audiovisual</h4>
+                    <h5>Embention S.I. | 2023 - Act.</h5>
+                    <p>Diseño gráfico para redes sociales y web. 
+                        Fotografía y vídeo corporativo y de producto. 
+                        Motiongraphics. Modelado y animación 3D de producto.</p>
+                </div>
 
-            <div>
-                <h5>Grafismo Audiovisual</h5>
-                <h6>àPunt RTTV - 2023</h6>
-                <p>Generar contenido para la sección de L' Oratge: 
-                    diseño grafico e ilustraciones, motiongraphics, 
-                    modelado y animación 3D.</p>
-            </div>
+                <div>
+                    <h4>Grafismo Audiovisual</h4>
+                    <h5>àPunt RTTV - 2023</h5>
+                    <p>Generar contenido para la sección de L' Oratge: 
+                        diseño grfico, ilustraciones, motiongraphics, 
+                        modelado y animación 3D.</p>
+                </div>
 
-            <div>
-                <h5>Técnico audiovisual</h5>
-                <h6>Fundación Servipoli | 2019 - 2023</h6>
-                <p>Diseño de cartelería informativa para eventos deportivos. 
-                    Fotografía y vídeo de eventos deportivos y su posterior 
-                    edición. Gestión de RRSS.</p>
+                <div>
+                    <h4>Técnico audiovisual</h4>
+                    <h5>Fundación Servipoli | 2019 - 2023</h5>
+                    <p>Diseño de cartelería informativa para eventos deportivos. 
+                        Fotografía y vídeo de eventos deportivos y su posterior 
+                        edición. Gestión de RRSS.</p>
+                </div>
             </div>
         </section>
         <!-- FIN Sección experiencia -->
 
         <!-- Sección formación -->
-        <section>
-            <div>
-                <h5>Técnico audiovisual</h5>
-                <p>Diseño gráfico para redes sociales y web. 
-                    Fotografía y vídeo corporativo y de producto. 
-                    Motiongraphics. Modelado y animación 3D de producto.</p>
-            </div>
+        <section class="formacion" >
+            <div id="formacion">
+                <div>
+                    <h4>Máster <br> Postproducción <br> Digital</h4>
+                    <p>Universitat Politècnica de València</p>
+                </div>
 
-            <div>
-                <h5>Grafismo Audiovisual</h5>
-                <p>Generar contenido para la sección de L' Oratge: 
-                    diseño grafico e ilustraciones, motiongraphics, 
-                    modelado y animación 3D.</p>
-            </div>
-            
-            <div>
-                <h5>Técnico audiovisual</h5>
-                <p>Diseño de cartelería informativa para eventos deportivos. 
-                    Fotografía y vídeo de eventos deportivos y su posterior 
-                    edición. Gestión de RRSS.</p>
+                <div>
+                    <h4>Grado <br> Comunicación <br> Audiovisual</h4>
+                    <p>Universitat Politècnica de València</p>
+                </div>
+                
+                <div>
+                    <h4>Técnico <br> Laboratorio <br> Imagen</h4>
+                    <p>IES Henry Matisse, Paterna, València</p>
+                </div>
             </div>
         </section>
 
