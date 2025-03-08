@@ -91,7 +91,7 @@ header div ~ div{
 
 article{
     width: 60%;
-    padding-top: 5% ;
+    padding-top: 7% ;
     padding-bottom: 5%;
     display: flex;
     gap: 50px;
@@ -116,7 +116,7 @@ button + button{
 /* Sección Sobre mí */
 
 #sobremi{
-    padding: 3% 17.5%;
+    padding: 5% 17.5%;
 }
 
 .container-gris {
@@ -172,7 +172,7 @@ button + button{
     padding: 80px 0px 50px 0px
 }
 
-.layout {
+.bento {
     width: 1200px;
     height: 800px;
     justify-items: center;
@@ -184,32 +184,28 @@ button + button{
     grid-column: 
   }
 
-  .layout div:first-child {
-    background-color: #3d3d3d;
+
+  .bento video{
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 16px;
-    grid-column: 1 /4;
-    grid-row: 1 / 4
-    
   }
 
-  .layout div:nth-child(2) {
-    background-color: #3d3d3d;
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
+  .bento div:first-child {
+    grid-column: 1 /4;
+    grid-row: 1 / 4
+  }
+
+  
+
+  .bento div:nth-child(2) {
     grid-column: 4 / 5;
     grid-row: 1 / 4
     
   }
 
-  .layout div:nth-child(3) {
-    background-color: #3d3d3d;
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
+  .bento div:nth-child(3) {
     grid-column: 5 / 6;
     grid-row: 1 / 4
-    
   }
