@@ -80,8 +80,8 @@ header div ~ div{
 /* Sección HOME */
 
 #fotocv{
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    
     border-radius: 50%;
 }
 
@@ -91,8 +91,9 @@ header div ~ div{
 
 article{
     width: 60%;
-    padding-top: 7% ;
-    padding-bottom: 5%;
+    height: 55vh;
+    padding-top: 5%  ;
+    padding-bottom: 3%;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -116,7 +117,7 @@ button + button{
 /* Sección Sobre mí */
 
 #sobremi{
-    padding: 5% 17.5%;
+    padding: 3% 17.5%;
 }
 
 .container-gris {
@@ -128,7 +129,19 @@ button + button{
 }
 
 #mi-historia {
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: ;
+    gap: 50px;
     padding-bottom: 50px;
+}
+
+.skills img {
+    width: 70px;
 }
 
 #experiencia {
